@@ -23,6 +23,13 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+if(amysAge < brittanisAge) {
+  console.log("Brittani is older");
+} else if(brittanisAge < amysAge) {
+  console.log("Amy is older");
+} else {
+  console.log("they are the same age.");
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -32,7 +39,13 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+if(amysBirthYear > brittanisBirthYear) {
+  console.log("Amy and Brittani were not born in the same year");
+} else if(brittanisBirthYear > amysBirthYear) {
+  console.log("Brittani and Amy do not have the same birth year");
+} else {
+  console.log("Amy and Brittani were born in the same year");
+};
 
 ////////// PROBLEM 4 //////////
 
@@ -45,7 +58,17 @@ let rain = true
 */
 
 //CODE HERE
+if(temperature >= 80) {
+  console.log("wear a T-shirt");
+} if(temperature > 60 && temperature < 80) {
+  console.log(" wear a rain jacket.");
+} if(temperature <= 60) {
+  console.log("wear a jacket");
+} if(rain = true) {
+  console.log("carry an umbrella");
+};
 
+  
 
 ////////// PROBLEM 5 //////////
 
@@ -54,7 +77,9 @@ let rain = true
 */
 
 //CODE HERE
-
+for (let i = 0; i < 10; i++) {
+  console.log("hello")
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -63,7 +88,9 @@ let rain = true
 */
 
 //CODE HERE
-
+for (let i = 1; i < 11; i++) {
+  console.log(i);
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -72,7 +99,9 @@ let rain = true
 */
 
 //CODE HERE
-
+for (let i = 10; i > 0; i--) {
+  console.log(i);
+}
 let score = 0
 let passingScore = 7
 
@@ -83,7 +112,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-
+while(score < 7) {
+  console.log("Your score is not high enough.");
+  score += 1
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -94,7 +126,7 @@ let passingScore = 7
 */
 
 //CODE HERE
-
+let changeMyMind = true
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
